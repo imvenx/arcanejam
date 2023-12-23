@@ -41,7 +41,7 @@
     </p>
 
     <a href="https://discord.com/invite/6Pr9JBCGXy" target="_blank"
-      style="display: grid; width: fit-content; margin: auto; justify-content: center;">
+      style="display: grid; width: fit-content; margin: auto;">
       <img src="images/join-discord.png" />
     </a>
 
