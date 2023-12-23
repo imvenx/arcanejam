@@ -40,7 +40,8 @@
       the channels: "help", "arcane-dev", "godot", "unity" and "web".
     </p>
 
-    <a href="https://discord.com/invite/6Pr9JBCGXy" target="_blank" style="display: grid; justify-content: center;">
+    <a href="https://discord.com/invite/6Pr9JBCGXy" target="_blank"
+      style="display: grid; width: fit-content; margin: auto; justify-content: center;">
       <img src="images/join-discord.png" />
     </a>
 
