@@ -12,8 +12,8 @@
     </p>
 
     <div style="text-align: center;">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/OpaYoftORnE?si=GuGGR1yAAJ93tZjc"
-        title="YouTube video player" frameborder="0"
+      <iframe style="min-width: 60%;" width="auto" height="315"
+        src="https://www.youtube.com/embed/OpaYoftORnE?si=GuGGR1yAAJ93tZjc" title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
     </div>
@@ -21,20 +21,27 @@
     <AHeader text="Motivation & What is Arcanepad?" />
 
     <p>
-      Arcanepad is a Software Development Kit for Unity, Godot and Web that makes life easier when creating
+      <b> Arcanepad </b> is a tool for Unity, Godot and Web that makes life easier when creating
       multi-device apps like the ones for this gamejam, also is a platform that allows to run those games without
-      having to install a new desktop and android app for every new game. The motivation for this gamejam is to
-      showcase the platform and the SDK libraries. I'v been working for a year on this and I'll keep adding
-      features like the hability to sell your games. The great thing is that you can distribute the games in your
-      own (example: itch.io) and Arcanepad is open for anyone to add those games manaully and play them without
-      the need for an account, opposite to most platforms and consoles where you need to ask permission and fill
-      forms even before start developing.
+      having to install a new desktop and android app for every new game. You can create and
+      distribute games that use Arcanepad without an account. You don't need to ask us
+      for permission to get a devkit, is our commitment to remain open and dev friendly. Nevertheless, in the future we
+      plan to support a way to distribute and sell your apps within Arcanepad.
     </p>
+
+    <AHeader text="How?" />
     <p>
       I created many examples and mini games, as showcased on the video, so you can get started asap on
       creating awesome games. There is a baseball game, a flying car game, a retro space ship game, and a starter
       template that shows how to use the pointer of our phones, to... paint? shoot? interact? Is your desicion.
     </p>
+
+    <p>
+      There is a unique tutorial section for Unity, Godot and Web, you can find it on the
+      <a href="https://imvenx.github.io/arcanedocs" target="_blank">ArcaneDocs</a>
+    </p>
+
+
     <p>
       Also I'll be keen to help you if needed, go to our discord channel, there I will be answering questions on
       the channels: "help", "arcane-dev", "godot", "unity" and "web".
@@ -45,29 +52,26 @@
       <img src="images/join-discord.png" />
     </a>
 
+    <AHeader text="Rules" />
+
+    <ul>
+      <li style="list-style: none;">
+        <p>&#9670; The game uses at least two different screens to work (Example: A controller and a viewer)</p>
+        <p>&#9670; You are allowed to adapt an existing game for this gamejam if you prefer, the work will be on
+          the controller part and the change in mechanics and user experience</p>
+        <p>&#9670; You are not required to use Arcanepad, if you prefeer you can create the whole networking system in
+          your own, altho realistically that may be very challenging for the time of this gamejam, in any case, we
+          encourage you to use Arcanepad but feel free to do all on your own if you prefeer</p>
+      </li>
+    </ul>
+
+    <AHeader text="Grand Finale & Live Gaming" />
+
     <p>
       The submissions will be featured on the main menu of Arcanepad for a period of time, and will be played
       live at Barcelona CheckPoint Gaming Bar after the ArcaneJam ends. You don't need to assist to this event to
       participate, but you can join us if you are near to have a fun time trying out some of the games.
     </p>
-
-    <p>you can use godot unity or web, there is docs in the [arcanedocs link] there are tutorials for each game
-      engine
-      you could make a game like sports that use your phone as a baseball bat or a tennis racket, or the phone
-      could
-      be a gun for a trail shooter game, or the lantern for a exploration game, you could use multiple phones that
-      behave as different tools, and they could shift shape to become another tools, or you could just make a
-      traditional gamepad layout like the classic nes controller or a modern controller with [the word for the
-      joysticks that have omnidirection]&nbsp;</p>
-    <p>The games will be played on a presencial event in Barcelona gaming bar the theme is free, you can do whatever
-      you
-      want, there are no prizes except for having fun and learning something new, and having a cool project for
-      your
-      portfolio the games will be voted by most creative, mechanics, style, innovative and replayability</p>
-    <p>If you won't continue the project after the gamejam,&nbsp;we encourage you to make it open source so in the
-      future&nbsp;anyone can take from where you left, but this is totally up to you of course!</p>
-    <p>The best games will be featured in the Arcanepad Home.</p>
-
 
   </div>
   <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
