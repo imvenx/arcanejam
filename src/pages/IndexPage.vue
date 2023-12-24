@@ -1,5 +1,5 @@
 <template>
-  <div id="cont" style="color:white; width: 100vw; margin: auto; padding: 20px; overflow: hidden;">
+  <div id="cont" style="color:white; max-width: 1000px; margin: auto; padding: 20px; overflow: hidden;">
 
     <p style="font-size: 1.8rem">
       <!-- border: 2px solid rgb(147, 196, 196); box-shadow: 0 0 20px white; border-radius: 10px; padding: 1em; -->
@@ -77,16 +77,14 @@
     </p>
 
   </div>
-  <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
     <rect width="100%" height="100%" fill="black" />
-    <!-- Random stars -->
     <circle cx="20" cy="30" r="2" fill="white" />
     <circle cx="50" cy="70" r="1" fill="white" />
     <circle cx="100" cy="50" r="1.5" fill="white" />
     <circle cx="150" cy="100" r="2" fill="white" />
     <circle cx="170" cy="150" r="1" fill="white" />
-    <!-- Add more circles for more stars -->
-  </svg>
+  </svg> -->
 </template>
 
 <script setup lang="ts">
