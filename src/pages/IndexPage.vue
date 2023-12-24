@@ -49,8 +49,8 @@
     </div>
 
     <p>
-      Also I'll be keen to help you if needed, go to our discord channel, there I will be answering questions on
-      the channels: "help", "arcane-dev", "godot", "unity" and "web".
+      Also I'll be keen to help you if needed, <a href="https://discord.com/invite/6Pr9JBCGXy">go to our Discord</a>,
+      there I will be answering questions on the channels: "help", "arcane-dev", "godot", "unity" and "web".
     </p>
 
     <LinkImg link="https://discord.com/invite/6Pr9JBCGXy" img="images/join-discord.png" />
