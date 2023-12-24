@@ -1,8 +1,11 @@
 <template>
   <div id="cont" style="color:white; width: 100vw; margin: auto; padding: 20px; overflow: hidden;">
 
-    <p>
-      Welcome to the ArcaneJam! This is your opportunity to push the boundaries of gaming!
+    <p style="font-size: 1.8rem">
+      <!-- border: 2px solid rgb(147, 196, 196); box-shadow: 0 0 20px white; border-radius: 10px; padding: 1em; -->
+      <b>
+        Welcome to the ArcaneJam! This is your opportunity to push the boundaries of gaming!
+      </b>
     </p>
     <AHeader text="About" />
     <p>
@@ -30,40 +33,36 @@
     </p>
 
     <AHeader text="How?" />
-    <p>
-      I created many examples and mini games, as showcased on the video, so you can get started asap on
-      creating awesome games. There is a baseball game, a flying car game, a retro space ship game, and a starter
-      template that shows how to use the pointer of our phones, to... paint? shoot? interact? Is your desicion.
-    </p>
 
-    <p>
-      There is a unique tutorial section for Unity, Godot and Web, you can find it on the
-      <a href="https://imvenx.github.io/arcanedocs" target="_blank">ArcaneDocs</a>
-    </p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));">
+      <p>
+        I created many examples and mini games, as showcased on the video, so you can get started asap on
+        creating awesome games. There is a baseball game, a flying car game, a retro space ship game, and a starter
+        template that shows how to use the pointer of our phones, to... paint? shoot? interact? Is your desicion.
+        <br>
+        <br>
+        There is a dedicated tutorial section for each Unity, Godot and Web, you can find it on the
+        <a href="https://imvenx.github.io/arcanedocs" target="_blank">ArcaneDocs</a>
+      </p>
 
+      <LinkImg link="https://imvenx.github.io/arcanedocs" img="images/ArcaneDocs2.png" />
+    </div>
 
     <p>
       Also I'll be keen to help you if needed, go to our discord channel, there I will be answering questions on
       the channels: "help", "arcane-dev", "godot", "unity" and "web".
     </p>
 
-    <a href="https://discord.com/invite/6Pr9JBCGXy" target="_blank"
-      style="display: grid; width: fit-content; margin: auto;">
-      <img src="images/join-discord.png" />
-    </a>
+    <LinkImg link="https://discord.com/invite/6Pr9JBCGXy" img="images/join-discord.png" />
 
     <AHeader text="Rules" />
 
-    <ul>
-      <li style="list-style: none;">
-        <p>&#9670; The game uses at least two different screens to work (Example: A controller and a viewer)</p>
-        <p>&#9670; You are allowed to adapt an existing game for this gamejam if you prefer, the work will be on
-          the controller part and the change in mechanics and user experience</p>
-        <p>&#9670; You are not required to use Arcanepad, if you prefeer you can create the whole networking system in
-          your own, altho realistically that may be very challenging for the time of this gamejam, in any case, we
-          encourage you to use Arcanepad but feel free to do all on your own if you prefeer</p>
-      </li>
-    </ul>
+    <p>&#9670; The game uses at least two different screens to work (Example: A controller and a viewer)</p>
+    <p>&#9670; You are allowed to adapt an existing game for this gamejam if you prefer, the work will be on
+      the controller part and the change in mechanics and user experience</p>
+    <p>&#9670; You are not required to use Arcanepad, if you prefeer you can create the whole networking system in
+      your own, altho realistically that may be very challenging for the time of this gamejam, in any case, we
+      encourage you to use Arcanepad but feel free to do all on your own if you prefeer</p>
 
     <AHeader text="Grand Finale & Live Gaming" />
 
@@ -71,6 +70,10 @@
       The submissions will be featured on the main menu of Arcanepad for a period of time, and will be played
       live at Barcelona CheckPoint Gaming Bar after the ArcaneJam ends. You don't need to assist to this event to
       participate, but you can join us if you are near to have a fun time trying out some of the games.
+
+      <LinkImg
+        link="https://www.google.com/maps/place/Checkpoint+Gaming+Lounge/@41.3936291,2.1747835,15z/data=!4m2!3m1!1s0x0:0x6aec8948241fcca3?sa=X&ved=2ahUKEwiK9OGMjKiDAxUXgv0HHRp1A94Q_BJ6BAg_EAA"
+        img="images/checkpoint.png" />
     </p>
 
   </div>
@@ -88,6 +91,7 @@
 
 <script setup lang="ts">
 import AHeader from 'src/components/AHeader.vue';
+import LinkImg from 'src/components/LinkImg.vue';
 
 
 </script>
@@ -95,16 +99,5 @@ import AHeader from 'src/components/AHeader.vue';
 <style scoped>
 #cont {
   margin: 5%;
-}
-
-img {
-  transition: .5s all;
-  width: 80%;
-  max-width: 600px;
-  margin: 20px auto;
-}
-
-img:hover {
-  scale: 1.1;
 }
 </style>

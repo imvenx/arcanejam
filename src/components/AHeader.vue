@@ -23,10 +23,11 @@ defineProps<{ text: string }>()
 
 #AHeaderCont * {
   border: 10px solid rgba(255, 255, 255, .5);
-  transition: .5s all;
+  transition: .3s all;
 }
 
 #AHeaderCont *:hover {
   border: 10px solid rgb(255, 255, 255, .8);
+  scale: 1.012 1.04;
 }
 </style>
