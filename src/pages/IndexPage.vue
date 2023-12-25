@@ -1,6 +1,6 @@
 <template>
   <div id="cont"
-    style="text-align: justify; color:white; max-width: 1000px; margin: auto; padding: 20px; overflow: hidden;">
+    style="text-align: justify; hyphens: auto; word-break: break-word; color:white; max-width: 1000px; margin: auto; padding: 20px; overflow: hidden;">
 
     <p style="font-size: 1.8rem">
       <!-- border: 2px solid rgb(147, 196, 196); box-shadow: 0 0 20px white; border-radius: 10px; padding: 1em; -->
@@ -74,8 +74,7 @@
       this gamejam, in any case, we encourage you to use Arcanepad but feel free to do all on your own if you prefeer</p>
 
     <AHeader text="Prize" />
-    <div
-      style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, max-content));; align-items: center;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, max-content)); align-items: center;">
 
       <div style="max-width: 300px; margin: auto;">
         <LinkImg img="images/prize.png" link="https://arcanepad.com" />
