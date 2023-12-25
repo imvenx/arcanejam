@@ -77,7 +77,7 @@
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); align-items: center;">
 
       <div style="max-width: 300px; margin: auto;">
-        <LinkImg img="images/prize.png" link="#" />
+        <LinkImg img="images/prize.png" link="https://arcanepad.com" />
       </div>
 
       <p>There will be a hall of fame on Arcanepad.com for the winners of the
