@@ -1,5 +1,5 @@
 <template>
-  <div style="margin: auto; width: 100%; background-color: rgba(0,0,0,.7); position: absolute; top: 0; bottom: 0;">
+  <div style="margin: auto; width: 100%; background-color: rgba(0,0,0,.75); position: absolute; top: 0; bottom: 0;">
     <router-view />
   </div>
 </template>
