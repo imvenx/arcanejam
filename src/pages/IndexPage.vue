@@ -58,11 +58,15 @@
     <AHeader text="Rules" />
 
     <p>&#9670; The game uses at least two different screens to work (Example: A controller and a viewer)</p>
+    <p>&#9670; The theme is free, you can do whatever you want</p>
     <p>&#9670; You are allowed to adapt an existing game for this gamejam if you prefer, the work will be on
       the controller part and the change in mechanics and user experience</p>
     <p>&#9670; You are not required to use Arcanepad, if you prefeer you can create the whole networking system on
       your own, altho realistically that may be very challenging for the time of this gamejam, in any case, we
       encourage you to use Arcanepad but feel free to do all on your own if you prefeer</p>
+    <p>&#9670; You own the rights of the game</p>
+    <p>&#9670; You agree that we can feature your game in videos and in the Arcanepad Home</p>
+
 
     <AHeader text="Grand Finale & Live Gaming" />
 
