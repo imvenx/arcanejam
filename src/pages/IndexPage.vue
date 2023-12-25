@@ -74,7 +74,7 @@
       this gamejam, in any case, we encourage you to use Arcanepad but feel free to do all on your own if you prefeer</p>
 
     <AHeader text="Prize" />
-    <div style="display: grid; grid-template-columns: 30% 70%; align-items: center;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); align-items: center;">
 
       <div style="max-width: 300px; margin: auto;">
         <LinkImg img="images/prize.png" link="#" />
