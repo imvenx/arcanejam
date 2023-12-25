@@ -64,15 +64,18 @@
     <p>&#9670; You agree that we can feature your game in videos and in the Arcanepad Home</p>
 
     <AHeader text="Questions & Answers" />
-    <p>&#9670; <b>Who can vote?</b> Everyone can vote, the criteria will be Creativity, Style, Mechanics, and
+    <p>&#9670; <b style="text-decoration: underline;">Who can vote?</b> Everyone can vote, the criteria will be
+      Creativity, Style, Mechanics, and
       Innovation. </p>
-    <p>&#9670; <b>Are teams allowed?</b> Yes! </p>
-    <p>&#9670; <b>Is it mandatory to use Arcanepad?</b> You are not required to use Arcanepad, if you prefeer you can
+    <p>&#9670; <b style="text-decoration: underline;">Are teams allowed?</b> Yes! </p>
+    <p>&#9670; <b style="text-decoration: underline;">Is it mandatory to use Arcanepad?</b> You are not required to use
+      Arcanepad, if you prefeer you can
       create the whole networking system on your own, altho realistically that may be very challenging for the time of
       this gamejam, in any case, we encourage you to use Arcanepad but feel free to do all on your own if you prefeer</p>
-    <p>&#9670; <b>Can I adapt an existing game?</b> Yes, the work will be on the controller part and the change in
+    <p>&#9670; <b style="text-decoration: underline;">Can I adapt an existing game?</b> Yes, the work will be on the
+      controller part and the change in
       mechanics and user experience</p>
-    <p>&#9670; <b>Can I submit multiple entries?</b> Yes </p>
+    <p>&#9670; <b style="text-decoration: underline;">Can I submit multiple entries?</b> Yes </p>
 
     <AHeader text="Prize" />
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, max-content)); align-items: center;">
@@ -121,5 +124,4 @@ import LinkImg from 'src/components/LinkImg.vue';
 <style scoped>
 #cont {
   margin: 5%;
-}
-</style>
+}</style>
