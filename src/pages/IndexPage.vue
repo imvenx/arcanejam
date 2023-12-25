@@ -37,7 +37,7 @@
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));">
       <p>
-        I created many examples and mini games, as showcased on the video, so you can get started asap on
+        I created many examples and mini games, as showcased on the video, so you can get started as soon as possible
         creating awesome games. There is a baseball game, a flying car game, a retro space ship game, and a starter
         template that shows how to use the pointer of our phones, to... paint? shoot? interact? Is your desicion.
         <br>
