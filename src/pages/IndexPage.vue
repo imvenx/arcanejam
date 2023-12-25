@@ -82,9 +82,8 @@
 
       <p>There will be a hall of fame on Arcanepad.com for the winners of the
         first Arcanejam with a link
-        to your itch.io profile. Projects may be elegible to continue development under some budget or other possible ways
-        of financing like teaming up on a crowdfunding or some other possibilities. We are open to talk ways to continue
-        collaborating!</p>
+        to your itch.io profile. Projects may be offered to continue development under possible ways of financing like
+        teaming up on a crowdfunding or some other possibilities. We are open to talk ways to continue collaborating!</p>
 
     </div>
 
