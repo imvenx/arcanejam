@@ -15,11 +15,15 @@
       classic gamepad, basically is a link between the player and the videogame.
     </p>
 
-    <div style="text-align: center;">
-      <iframe style="min-width: 60%;" width="auto" height="315"
-        src="https://www.youtube.com/embed/OpaYoftORnE?si=GuGGR1yAAJ93tZjc" title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
+    <div style="text-align: center;  position: relative;    width: 100%;    padding-bottom: 56.25%; ">
+      <!-- <iframe style="min-width: 60%;" width="auto" height="320"
+        src="https://www.youtube.com/embed/-B9HoCHmcl8?si=Jv1ABQ0ghYAkJL0t" title="YouTube video player" frameborder="0"
+        allowfullscreen></iframe> -->
+
+      <iframe src="https://www.youtube.com/embed/-B9HoCHmcl8?si=Jv1ABQ0ghYAkJL0t"
+        style="  position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;" frameborder="0"
+        allow="encrypted-media" allowfullscreen>
+      </iframe>
     </div>
 
     <AHeader text="Motivation & What is Arcanepad?" />
@@ -84,8 +88,7 @@
         <LinkImg img="images/prize.png" link="https://arcanepad.com" />
       </div>
 
-      <p>There will be a hall of fame on Arcanepad.com for the winners of the
-        first Arcanejam with a link
+      <p>There will be a hall of fame on Arcanepad.com for the winners of the first Arcanejam with a link
         to your itch.io profile. Projects may be offered to continue development under possible ways of financing like
         teaming up on a crowdfunding or some other possibilities. We are open to talk ways to continue collaborating!</p>
 
@@ -124,4 +127,5 @@ import LinkImg from 'src/components/LinkImg.vue';
 <style scoped>
 #cont {
   margin: 5%;
-}</style>
+}
+</style>
