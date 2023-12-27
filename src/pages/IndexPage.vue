@@ -11,8 +11,8 @@
     <AHeader text="About" />
     <p>
       Here is the basic idea, you have a phone that will be the controller and a PC that is the viewer.
-      The phone could be anything, a lantern, a key, a gun, a baseball bat, a driving wheel, an airplane control, a
-      classic gamepad, basically is a link between the player and the videogame.
+      The phone could be anything, a lantern, a key, a gun, a baseball bat, a steering wheel, an airplane
+      control, a classic gamepad, basically is a link between the player and the videogame.
     </p>
 
     <div style="text-align: center;  position: relative;    width: 100%;    padding-bottom: 56.25%; ">
