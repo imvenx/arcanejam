@@ -88,9 +88,18 @@
         <LinkImg img="images/prize.png" link="https://arcanepad.com" />
       </div>
 
-      <p>There will be a hall of fame on Arcanepad.com for the winners of the first Arcanejam with a link
-        to your itch.io profile. Projects may be offered to continue development under possible ways of financing like
-        teaming up on a crowdfunding or some other possibilities. We are open to talk ways to continue collaborating!</p>
+      <p>
+      <ul>
+        &#9670; Projects may be offered to continue development under possible ways of financing
+        like teaming up on a crowdfunding or some other possibilities. We are open to talk ways to continue
+        collaborating!
+      </ul>
+      <ul>
+        &#9670; There will be a hall of fame on Arcanepad.com or the ArcaneDocs for the winners of the first Arcanejam
+        with a
+        link to your itch.io profile.
+      </ul>
+      </p>
 
     </div>
 
