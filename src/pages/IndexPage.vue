@@ -107,12 +107,12 @@
 
     <p>
       The submissions will be featured on the main menu of Arcanepad for a period of time, and will be played
-      live at Barcelona CheckPoint Gaming Bar after the ArcaneJam ends. You don't need to assist to this event to
+      live at Barcelona Afterlife Gaming Bar after the ArcaneJam ends. You don't need to assist to this event to
       participate, but you can join us if you are near to have a fun time trying out some of the games.
 
       <LinkImg
-        link="https://www.google.com/maps/place/Checkpoint+Gaming+Lounge/@41.3936291,2.1747835,15z/data=!4m2!3m1!1s0x0:0x6aec8948241fcca3?sa=X&ved=2ahUKEwiK9OGMjKiDAxUXgv0HHRp1A94Q_BJ6BAg_EAA"
-        img="images/checkpoint.png" />
+        link="https://www.google.com/maps/dir//Carrer+de+Mari%C3%A0+Cub%C3%AD,+192,+Sarri%C3%A0-Sant+Gervasi,+08021+Barcelona/@41.3943967,2.1251487,13.75z/data=!4m8!4m7!1m0!1m5!1m1!1s0x12a498764097cb21:0x98060535cdf313d1!2m2!1d2.1437428!2d41.3948647?entry=ttu"
+        img="images/afterlife.png" />
     </p>
 
   </div>
